@@ -9,7 +9,7 @@
 // const red = new Colour();
 
 let apple: number = 5;
-let orange = "or";
+let orange = "or ";
 
 let pointer: { x: number; y: number } = {
   x: 9,
