@@ -20,3 +20,19 @@ const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
 logNumber(4);
+
+const carMakers: string[] = ["ford", "toyota", "chevy"];
+const dates: Date[] = [new Date(), new Date()];
+
+carMakers.map((car: string): string => {
+  return car;
+});
+
+const drink = {
+  color: "brown",
+  carbonated: true,
+  sugar: 40,
+};
+
+type Drink = [string, boolean, number];
+const pepsi: Drink = ["brown", true, 40];
